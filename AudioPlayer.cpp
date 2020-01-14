@@ -6,4 +6,4 @@
 
 #include <iostream>
 
-#def
+#define checkStatus
