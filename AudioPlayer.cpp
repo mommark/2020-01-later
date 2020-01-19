@@ -6,4 +6,6 @@
 
 #include <iostream>
 
-#define checkStatus(status) checkStatus_(status, __FILE__, __L
+#define checkStatus(status) checkStatus_(status, __FILE__, __LINE__)
+
+static 
