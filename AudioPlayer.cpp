@@ -8,4 +8,4 @@
 
 #define checkStatus(status) checkStatus_(status, __FILE__, __LINE__)
 
-static 
+static const int kNumberBuffers 
