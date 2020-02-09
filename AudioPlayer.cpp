@@ -9,4 +9,5 @@
 #define checkStatus(status) checkStatus_(status, __FILE__, __LINE__)
 
 static const int kNumberBuffers = 3;                              // 1
-struct
+struct AQPlayerState {
+   
