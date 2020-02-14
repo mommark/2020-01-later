@@ -11,4 +11,5 @@
 static const int kNumberBuffers = 3;                              // 1
 struct AQPlayerState {
     AudioStreamBasicDescription   mDataFormat;                    // 2
-    AudioQueueRef                 mQueue;                       
+    AudioQueueRef                 mQueue;                         // 3
+    Audio
