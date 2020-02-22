@@ -13,4 +13,4 @@ struct AQPlayerState {
     AudioStreamBasicDescription   mDataFormat;                    // 2
     AudioQueueRef                 mQueue;                         // 3
     AudioQueueBufferRef           mBuffers[kNumberBuffers];       // 4
-    AudioFileID                   mAudioFile; 
+    AudioFileID                   mAudioFile;                     // 5
