@@ -14,3 +14,4 @@ struct AQPlayerState {
     AudioQueueRef                 mQueue;                         // 3
     AudioQueueBufferRef           mBuffers[kNumberBuffers];       // 4
     AudioFileID                   mAudioFile;                     // 5
+    UInt32          
