@@ -17,4 +17,5 @@ struct AQPlayerState {
     UInt32                        bufferByteSize;                 // 6
     SInt64                        mCurrentPacket;                 // 7
     UInt32                        mNumPacketsToRead;              // 8
-    AudioStreamPacketDescription  *mPacketDescs;     
+    AudioStreamPacketDescription  *mPacketDescs;                  // 9
+ 
