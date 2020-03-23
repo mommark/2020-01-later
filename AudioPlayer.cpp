@@ -18,4 +18,4 @@ struct AQPlayerState {
     SInt64                        mCurrentPacket;                 // 7
     UInt32                        mNumPacketsToRead;              // 8
     AudioStreamPacketDescription  *mPacketDescs;                  // 9
-    bool             
+    bool                          mIsRunn
