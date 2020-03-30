@@ -26,4 +26,4 @@ struct AQPlayerState {
 
 static void HandleOutputBuffer (
     void                *aqData,
-    A
+    AudioQueueRef     
