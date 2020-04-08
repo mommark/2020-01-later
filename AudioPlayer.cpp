@@ -32,4 +32,5 @@ static void HandleOutputBuffer (
     
 //    std::cout << "cb" << std::endl;
     
-    OSSta
+    OSStatus status;
+   
