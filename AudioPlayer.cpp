@@ -33,4 +33,5 @@ static void HandleOutputBuffer (
 //    std::cout << "cb" << std::endl;
     
     OSStatus status;
-   
+    
+    AQPlayerState 
