@@ -34,4 +34,4 @@ static void HandleOutputBuffer (
     
     OSStatus status;
     
-    AQPlayerState 
+    AQPlayerState *pAqData = (AQPlayerS
