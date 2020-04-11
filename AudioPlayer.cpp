@@ -35,4 +35,4 @@ static void HandleOutputBuffer (
     OSStatus status;
     
     AQPlayerState *pAqData = (AQPlayerState *) aqData;        // 1
-    if (pAqData->mIsRunning
+    if (pAqData->mIsRunning == 0) return;         
