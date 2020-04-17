@@ -36,4 +36,4 @@ static void HandleOutputBuffer (
     
     AQPlayerState *pAqData = (AQPlayerState *) aqData;        // 1
     if (pAqData->mIsRunning == 0) return;                     // 2
-    UInt32 numBytesReadFr
+    UInt32 numBytesReadFromFile;               
