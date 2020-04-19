@@ -40,4 +40,5 @@ static void HandleOutputBuffer (
     UInt32 numPackets = pAqData->mNumPacketsToRead;           // 4
     status = AudioFileReadPackets (
         pAqData->mAudioFile,
- 
+        false,
+  
