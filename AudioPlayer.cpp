@@ -42,4 +42,5 @@ static void HandleOutputBuffer (
         pAqData->mAudioFile,
         false,
         &numBytesReadFromFile,
-        pAqDa
+        pAqData->mPacketDescs, 
+  
