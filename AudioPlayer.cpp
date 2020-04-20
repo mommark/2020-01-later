@@ -41,4 +41,5 @@ static void HandleOutputBuffer (
     status = AudioFileReadPackets (
         pAqData->mAudioFile,
         false,
-        &numBytesReadFro
+        &numBytesReadFromFile,
+        pAqDa
