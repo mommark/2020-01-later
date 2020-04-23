@@ -44,4 +44,5 @@ static void HandleOutputBuffer (
         &numBytesReadFromFile,
         pAqData->mPacketDescs, 
         pAqData->mCurrentPacket,
-        &nu
+        &numPackets,
+ 
