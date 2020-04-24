@@ -45,4 +45,6 @@ static void HandleOutputBuffer (
         pAqData->mPacketDescs, 
         pAqData->mCurrentPacket,
         &numPackets,
-        inBuffer->mA
+        inBuffer->mAudioData 
+    );
+//
