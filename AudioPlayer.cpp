@@ -47,4 +47,4 @@ static void HandleOutputBuffer (
         &numPackets,
         inBuffer->mAudioData 
     );
-//
+//    checkStat
