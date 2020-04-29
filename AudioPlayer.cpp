@@ -48,4 +48,4 @@ static void HandleOutputBuffer (
         inBuffer->mAudioData 
     );
 //    checkStatus(status);
-    if (numPa
+    if (numPackets > 0) {    
