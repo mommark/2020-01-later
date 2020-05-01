@@ -50,4 +50,4 @@ static void HandleOutputBuffer (
 //    checkStatus(status);
     if (numPackets > 0) {                                     // 5
         inBuffer->mAudioDataByteSize = numBytesReadFromFile;  // 6
-       st
+       status = AudioQueueEnqu
