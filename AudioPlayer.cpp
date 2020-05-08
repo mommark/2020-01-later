@@ -53,4 +53,4 @@ static void HandleOutputBuffer (
        status = AudioQueueEnqueueBuffer ( 
             pAqData->mQueue,
             inBuffer,
-            (pAqData->mPacketD
+            (pAqData->mPacketDescs ? numPackets : 0
