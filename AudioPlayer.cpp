@@ -54,4 +54,6 @@ static void HandleOutputBuffer (
             pAqData->mQueue,
             inBuffer,
             (pAqData->mPacketDescs ? numPackets : 0),
-            pAqData->mPacketDe
+            pAqData->mPacketDescs
+        );
+//        
