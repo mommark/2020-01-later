@@ -56,4 +56,5 @@ static void HandleOutputBuffer (
             (pAqData->mPacketDescs ? numPackets : 0),
             pAqData->mPacketDescs
         );
-//        checkStatus(status)
+//        checkStatus(status);
+        pAqData->mCur
