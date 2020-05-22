@@ -57,4 +57,6 @@ static void HandleOutputBuffer (
             pAqData->mPacketDescs
         );
 //        checkStatus(status);
-        pAqData->mCurrentPacket += numPackets;                // 7
+        pAqData->mCurrentPacket += numPackets;                // 7 
+    } else {
+  
