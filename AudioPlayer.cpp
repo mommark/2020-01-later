@@ -59,4 +59,4 @@ static void HandleOutputBuffer (
 //        checkStatus(status);
         pAqData->mCurrentPacket += numPackets;                // 7 
     } else {
-        status = A
+        status = AudioQueueStop 
