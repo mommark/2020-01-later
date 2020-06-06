@@ -65,4 +65,11 @@ static void HandleOutputBuffer (
         );
 //        checkStatus(status);
         pAqData->mIsRunning = false; 
-    
+    }
+}
+
+
+
+
+
+class AudioPlayerOsx :
