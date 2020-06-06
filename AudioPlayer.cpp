@@ -64,4 +64,5 @@ static void HandleOutputBuffer (
             false
         );
 //        checkStatus(status);
-        pAqData->mIsRun
+        pAqData->mIsRunning = false; 
+    
