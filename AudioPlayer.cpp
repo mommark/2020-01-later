@@ -72,4 +72,4 @@ static void HandleOutputBuffer (
 
 
 
-class AudioPlayerOsx :
+class AudioPlayerOsx : public AudioPlayer {
