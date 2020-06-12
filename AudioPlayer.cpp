@@ -75,4 +75,6 @@ static void HandleOutputBuffer (
 class AudioPlayerOsx : public AudioPlayer {
 public:
     
-    bool l
+    bool load(CFURLRef url) {
+
+  
