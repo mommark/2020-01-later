@@ -78,4 +78,4 @@ public:
     bool load(CFURLRef url) {
 
         OSStatus status;
-        memse
+        memset(&aqData,0,sizeof(aq
