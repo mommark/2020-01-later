@@ -77,4 +77,5 @@ public:
     
     bool load(CFURLRef url) {
 
-        OSStatus statu
+        OSStatus status;
+        memse
