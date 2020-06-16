@@ -79,4 +79,5 @@ public:
 
         OSStatus status;
         memset(&aqData,0,sizeof(aqData));
-        tim
+        timeBase = 0;
+     
