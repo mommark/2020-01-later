@@ -81,4 +81,4 @@ public:
         memset(&aqData,0,sizeof(aqData));
         timeBase = 0;
         
-        status = AudioFileOpen
+        status = AudioFileOpenURL(url,kAudioFil
