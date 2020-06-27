@@ -82,4 +82,5 @@ public:
         timeBase = 0;
         
         status = AudioFileOpenURL(url,kAudioFileReadPermission,0,&aqData.mAudioFile);
-        checkStatu
+        checkStatus(status);
+     
