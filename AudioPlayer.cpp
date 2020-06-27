@@ -81,4 +81,5 @@ public:
         memset(&aqData,0,sizeof(aqData));
         timeBase = 0;
         
-        status = AudioFileOpenURL(url,kAudioFileReadPermission,0,&aqData.mAudioFil
+        status = AudioFileOpenURL(url,kAudioFileReadPermission,0,&aqData.mAudioFile);
+        checkStatu
