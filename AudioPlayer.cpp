@@ -83,4 +83,5 @@ public:
         
         status = AudioFileOpenURL(url,kAudioFileReadPermission,0,&aqData.mAudioFile);
         checkStatus(status);
-        if( status != noErr ) return
+        if( status != noErr ) return false;
+     
