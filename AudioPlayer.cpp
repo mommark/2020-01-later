@@ -86,4 +86,6 @@ public:
         if( status != noErr ) return false;
         
         
-        UInt32 dataFormatSize = sizeof (aqData.mDataF
+        UInt32 dataFormatSize = sizeof (aqData.mDataFormat);    // 1
+
+     
