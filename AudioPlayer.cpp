@@ -89,4 +89,5 @@ public:
         UInt32 dataFormatSize = sizeof (aqData.mDataFormat);    // 1
 
         status = AudioFileGetProperty (                                  // 2
-            aqData.mAudioFile,                      
+            aqData.mAudioFile,                                  // 3
+ 
