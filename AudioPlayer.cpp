@@ -92,4 +92,4 @@ public:
             aqData.mAudioFile,                                  // 3
             kAudioFilePropertyDataFormat,                       // 4
             &dataFormatSize,                                    // 5
-            &aqData.mDataFormat      
+            &aqData.mDataFormat                           
