@@ -93,4 +93,5 @@ public:
             kAudioFilePropertyDataFormat,                       // 4
             &dataFormatSize,                                    // 5
             &aqData.mDataFormat                                 // 6
+        );
       
