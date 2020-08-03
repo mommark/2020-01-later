@@ -94,4 +94,7 @@ public:
             &dataFormatSize,                                    // 5
             &aqData.mDataFormat                                 // 6
         );
-        checkStatus(s
+        checkStatus(status);
+
+
+    
