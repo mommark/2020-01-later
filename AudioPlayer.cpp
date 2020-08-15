@@ -97,4 +97,4 @@ public:
         checkStatus(status);
 
 
-        status = AudioQueueNewOutpu
+        status = AudioQueueNewOutput (                      
