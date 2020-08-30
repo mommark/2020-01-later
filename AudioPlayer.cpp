@@ -98,3 +98,4 @@ public:
 
 
         status = AudioQueueNewOutput (                                // 1
+            &
