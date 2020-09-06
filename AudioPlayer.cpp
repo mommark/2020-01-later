@@ -98,4 +98,4 @@ public:
 
 
         status = AudioQueueNewOutput (                                // 1
-            &
+            &aqData.mDataForm
