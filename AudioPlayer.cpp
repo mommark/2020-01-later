@@ -100,4 +100,4 @@ public:
         status = AudioQueueNewOutput (                                // 1
             &aqData.mDataFormat,                             // 2
             HandleOutputBuffer,                              // 3
-       
+            &aqData,   
