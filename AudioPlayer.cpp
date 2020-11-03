@@ -101,4 +101,4 @@ public:
             &aqData.mDataFormat,                             // 2
             HandleOutputBuffer,                              // 3
             &aqData,                                         // 4
-          
+            CFRunLoopGetC
