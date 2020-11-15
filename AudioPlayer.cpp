@@ -102,4 +102,4 @@ public:
             HandleOutputBuffer,                              // 3
             &aqData,                                         // 4
             CFRunLoopGetCurrent (),                          // 5
- 
+            kCF
