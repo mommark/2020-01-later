@@ -105,4 +105,5 @@ public:
             kCFRunLoopCommonModes,                           // 6
             0,                                               // 7
             &aqData.mQueue                                   // 8
-    
+        );
+        check
