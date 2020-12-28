@@ -106,4 +106,6 @@ public:
             0,                                               // 7
             &aqData.mQueue                                   // 8
         );
-        check
+        checkStatus(status);
+
+   
