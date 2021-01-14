@@ -108,4 +108,5 @@ public:
         );
         checkStatus(status);
 
-        UInt32 maxPacke
+        UInt32 maxPacketSize;
+        
