@@ -109,4 +109,4 @@ public:
         checkStatus(status);
 
         UInt32 maxPacketSize;
-        
+        UInt32 propert
