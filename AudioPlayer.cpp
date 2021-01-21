@@ -109,4 +109,5 @@ public:
         checkStatus(status);
 
         UInt32 maxPacketSize;
-        UInt32 propertySize = sizeof (max
+        UInt32 propertySize = sizeof (maxPacketSize);
+      
