@@ -110,4 +110,4 @@ public:
 
         UInt32 maxPacketSize;
         UInt32 propertySize = sizeof (maxPacketSize);
-      
+        status = AudioFileGe
