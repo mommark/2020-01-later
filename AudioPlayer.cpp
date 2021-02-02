@@ -110,4 +110,5 @@ public:
 
         UInt32 maxPacketSize;
         UInt32 propertySize = sizeof (maxPacketSize);
-        status = AudioFileGetProperty (                
+        status = AudioFileGetProperty (                               // 1
+  
