@@ -112,4 +112,4 @@ public:
         UInt32 propertySize = sizeof (maxPacketSize);
         status = AudioFileGetProperty (                               // 1
             aqData.mAudioFile,                               // 2
-            kAudioFilePropertyPacketSizeUpper
+            kAudioFilePropertyPacketSizeUpperBound,          // 
