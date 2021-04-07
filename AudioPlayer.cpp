@@ -113,4 +113,4 @@ public:
         status = AudioFileGetProperty (                               // 1
             aqData.mAudioFile,                               // 2
             kAudioFilePropertyPacketSizeUpperBound,          // 3
-            &propertySize,    
+            &propertySize,                       
