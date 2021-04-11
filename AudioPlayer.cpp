@@ -114,4 +114,4 @@ public:
             aqData.mAudioFile,                               // 2
             kAudioFilePropertyPacketSizeUpperBound,          // 3
             &propertySize,                                   // 4
-            &maxPacketSize                  
+            &maxPacketSize                                   // 5
