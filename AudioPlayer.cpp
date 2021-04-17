@@ -116,4 +116,6 @@ public:
             &propertySize,                                   // 4
             &maxPacketSize                                   // 5
         );
-       
+        checkStatus(status);
+
+
