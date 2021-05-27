@@ -121,4 +121,5 @@ public:
 
 
         deriveBufferSize (                                   // 6
-            aqData.mDataFormat,                        
+            aqData.mDataFormat,                              // 7
+        
