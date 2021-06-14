@@ -122,4 +122,4 @@ public:
 
         deriveBufferSize (                                   // 6
             aqData.mDataFormat,                              // 7
-            maxPacketSize,                
+            maxPacketSize,                                   //
