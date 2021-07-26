@@ -124,4 +124,4 @@ public:
             aqData.mDataFormat,                              // 7
             maxPacketSize,                                   // 8
             0.5,                                             // 9
-            &aqData.bufferByte
+            &aqData.bufferByteSize,                   
