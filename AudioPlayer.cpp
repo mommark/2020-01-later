@@ -130,4 +130,4 @@ public:
         
         
         
-        bool isForma
+        bool isFormatVBR = (        
