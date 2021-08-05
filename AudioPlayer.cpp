@@ -130,4 +130,5 @@ public:
         
         
         
-        bool isFormatVBR = (                                       //
+        bool isFormatVBR = (                                       // 1
+            aqD
