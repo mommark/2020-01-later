@@ -131,4 +131,4 @@ public:
         
         
         bool isFormatVBR = (                                       // 1
-            aqD
+            aqData.mDataFormat.mB
