@@ -132,4 +132,4 @@ public:
         
         bool isFormatVBR = (                                       // 1
             aqData.mDataFormat.mBytesPerPacket == 0 ||
-            
+            aqData.mDataForm
