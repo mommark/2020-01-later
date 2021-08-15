@@ -135,4 +135,4 @@ public:
             aqData.mDataFormat.mFramesPerPacket == 0
         );
 
-        if
+        if (isFormatVBR) {     
