@@ -132,4 +132,7 @@ public:
         
         bool isFormatVBR = (                                       // 1
             aqData.mDataFormat.mBytesPerPacket == 0 ||
-            aqData.mDataFormat.mFramesPerPacke
+            aqData.mDataFormat.mFramesPerPacket == 0
+        );
+
+        if
