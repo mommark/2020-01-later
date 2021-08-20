@@ -136,4 +136,4 @@ public:
         );
 
         if (isFormatVBR) {                                         // 2
-     
+            aqData.mPacketDescs 
