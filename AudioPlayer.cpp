@@ -136,4 +136,5 @@ public:
         );
 
         if (isFormatVBR) {                                         // 2
-            aqData.mPacketDescs 
+            aqData.mPacketDescs =
+              (Audi
