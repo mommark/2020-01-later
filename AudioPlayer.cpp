@@ -137,4 +137,5 @@ public:
 
         if (isFormatVBR) {                                         // 2
             aqData.mPacketDescs =
-              (AudioStreamPacketDescription*
+              (AudioStreamPacketDescription*) malloc (
+    
