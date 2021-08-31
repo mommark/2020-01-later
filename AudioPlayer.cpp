@@ -138,4 +138,4 @@ public:
         if (isFormatVBR) {                                         // 2
             aqData.mPacketDescs =
               (AudioStreamPacketDescription*) malloc (
-                aqData.mNumPacketsToRead * sizeof (Aud
+                aqData.mNumPacketsToRead * sizeof (AudioStreamPacketDescript
