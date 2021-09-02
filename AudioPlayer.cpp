@@ -139,4 +139,5 @@ public:
             aqData.mPacketDescs =
               (AudioStreamPacketDescription*) malloc (
                 aqData.mNumPacketsToRead * sizeof (AudioStreamPacketDescription)
+              );
       
