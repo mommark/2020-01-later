@@ -140,4 +140,4 @@ public:
               (AudioStreamPacketDescription*) malloc (
                 aqData.mNumPacketsToRead * sizeof (AudioStreamPacketDescription)
               );
-        } else {         
+        } else {                    
