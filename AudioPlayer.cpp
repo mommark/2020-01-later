@@ -141,4 +141,4 @@ public:
                 aqData.mNumPacketsToRead * sizeof (AudioStreamPacketDescription)
               );
         } else {                                                   // 3
-            aq
+            aqData.mPacketDe
