@@ -143,3 +143,6 @@ public:
         } else {                                                   // 3
             aqData.mPacketDescs = NULL;
         }
+
+
+        UInt32 cookieSize
