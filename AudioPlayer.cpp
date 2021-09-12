@@ -145,4 +145,4 @@ public:
         }
 
 
-        UInt32 cookieSize
+        UInt32 cookieSize = sizeof (UInt32);
