@@ -146,4 +146,5 @@ public:
 
 
         UInt32 cookieSize = sizeof (UInt32);                   // 1
-        OSStatus couldNotGetProperty =                   
+        OSStatus couldNotGetProperty =                             // 2
+        
