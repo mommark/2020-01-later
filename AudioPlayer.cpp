@@ -147,4 +147,4 @@ public:
 
         UInt32 cookieSize = sizeof (UInt32);                   // 1
         OSStatus couldNotGetProperty =                             // 2
-            AudioFileGetP
+            AudioFileGetPropertyInfo (      
