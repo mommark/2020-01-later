@@ -149,4 +149,5 @@ public:
         OSStatus couldNotGetProperty =                             // 2
             AudioFileGetPropertyInfo (                         // 3
                 aqData.mAudioFile,                             // 4
-                kAudioFilePropertyMagicCookieData,             
+                kAudioFilePropertyMagicCookieData,             // 5
+           
