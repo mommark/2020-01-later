@@ -150,4 +150,4 @@ public:
             AudioFileGetPropertyInfo (                         // 3
                 aqData.mAudioFile,                             // 4
                 kAudioFilePropertyMagicCookieData,             // 5
-                &cookieSize,        
+                &cookieSize,                      
