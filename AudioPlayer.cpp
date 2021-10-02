@@ -152,3 +152,4 @@ public:
                 kAudioFilePropertyMagicCookieData,             // 5
                 &cookieSize,                                   // 6
                 NULL                                           // 7
+            )
