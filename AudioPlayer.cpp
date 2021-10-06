@@ -154,3 +154,5 @@ public:
                 NULL                                           // 7
             );
     //    checkStatus(couldNotGetProperty);
+
+        if (!could
