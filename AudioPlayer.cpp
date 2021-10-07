@@ -155,4 +155,4 @@ public:
             );
     //    checkStatus(couldNotGetProperty);
 
-        if (!could
+        if (!couldNotGetProperty && cook
