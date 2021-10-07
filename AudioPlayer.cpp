@@ -155,4 +155,4 @@ public:
             );
     //    checkStatus(couldNotGetProperty);
 
-        if (!couldNotGetProperty && cook
+        if (!couldNotGetProperty && cookieSize) {           
