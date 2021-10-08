@@ -155,4 +155,5 @@ public:
             );
     //    checkStatus(couldNotGetProperty);
 
-        if (!couldNotGetProperty && cookieSize) {           
+        if (!couldNotGetProperty && cookieSize) {              // 8
+          
