@@ -156,4 +156,4 @@ public:
     //    checkStatus(couldNotGetProperty);
 
         if (!couldNotGetProperty && cookieSize) {              // 8
-          
+            char* magicCook
