@@ -157,4 +157,4 @@ public:
 
         if (!couldNotGetProperty && cookieSize) {              // 8
             char* magicCookie =
-             
+                (char *) 
