@@ -157,4 +157,6 @@ public:
 
         if (!couldNotGetProperty && cookieSize) {              // 8
             char* magicCookie =
-                (char *) malloc (cook
+                (char *) malloc (cookieSize);
+
+           
