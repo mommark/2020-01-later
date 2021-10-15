@@ -159,4 +159,4 @@ public:
             char* magicCookie =
                 (char *) malloc (cookieSize);
 
-            status = AudioFileGetProp
+            status = AudioFileGetProperty (         
