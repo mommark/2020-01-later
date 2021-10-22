@@ -160,4 +160,5 @@ public:
                 (char *) malloc (cookieSize);
 
             status = AudioFileGetProperty (                             // 9
-                aqData.mAudioFile,                             /
+                aqData.mAudioFile,                             // 10
+         
