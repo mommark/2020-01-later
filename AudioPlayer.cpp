@@ -161,4 +161,5 @@ public:
 
             status = AudioFileGetProperty (                             // 9
                 aqData.mAudioFile,                             // 10
-                kAudioFilePropertyMagicCookieDa
+                kAudioFilePropertyMagicCookieData,             // 11
+    
