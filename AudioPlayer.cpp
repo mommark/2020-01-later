@@ -163,4 +163,4 @@ public:
                 aqData.mAudioFile,                             // 10
                 kAudioFilePropertyMagicCookieData,             // 11
                 &cookieSize,                                   // 12
-                magicCookie         
+                magicCookie                                
