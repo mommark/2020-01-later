@@ -164,4 +164,5 @@ public:
                 kAudioFilePropertyMagicCookieData,             // 11
                 &cookieSize,                                   // 12
                 magicCookie                                    // 13
-         
+            );
+        checkSta
