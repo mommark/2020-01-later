@@ -165,4 +165,6 @@ public:
                 &cookieSize,                                   // 12
                 magicCookie                                    // 13
             );
-        checkSta
+        checkStatus(status);
+
+     
