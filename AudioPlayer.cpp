@@ -167,4 +167,4 @@ public:
             );
         checkStatus(status);
 
-            status = AudioQueue
+            status = AudioQueueSetProperty (    
