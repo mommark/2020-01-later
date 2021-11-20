@@ -168,4 +168,4 @@ public:
         checkStatus(status);
 
             status = AudioQueueSetProperty (                            // 14
-                aqData.
+                aqData.mQueue,                
