@@ -169,4 +169,4 @@ public:
 
             status = AudioQueueSetProperty (                            // 14
                 aqData.mQueue,                                 // 15
-                kAudio
+                kAudioQueueProperty
