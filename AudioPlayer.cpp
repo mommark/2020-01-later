@@ -169,4 +169,4 @@ public:
 
             status = AudioQueueSetProperty (                            // 14
                 aqData.mQueue,                                 // 15
-                kAudioQueueProperty_MagicCookie, 
+                kAudioQueueProperty_MagicCookie,               // 1
