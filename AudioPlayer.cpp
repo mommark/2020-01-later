@@ -173,4 +173,6 @@ public:
                 magicCookie,                                   // 17
                 cookieSize                                     // 18
             );
-      
+        checkStatus(status);
+
+ 
