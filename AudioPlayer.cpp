@@ -171,4 +171,4 @@ public:
                 aqData.mQueue,                                 // 15
                 kAudioQueueProperty_MagicCookie,               // 16
                 magicCookie,                                   // 17
-                cookieSize      
+                cookieSize                            
