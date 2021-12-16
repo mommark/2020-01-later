@@ -175,4 +175,4 @@ public:
             );
         checkStatus(status);
 
-            free (m
+            free (magicCookie);    
