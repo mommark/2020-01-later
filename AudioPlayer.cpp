@@ -184,4 +184,4 @@ public:
         return true;
     }
     
-    bool isPlaying() 
+    bool isPlaying() const { return aqData.mIsR
