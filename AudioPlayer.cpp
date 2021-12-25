@@ -184,4 +184,4 @@ public:
         return true;
     }
     
-    bool 
+    bool isPlaying() 
