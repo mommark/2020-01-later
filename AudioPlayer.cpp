@@ -184,4 +184,6 @@ public:
         return true;
     }
     
-    bool isPlaying() const { return aqData.mIsR
+    bool isPlaying() const { return aqData.mIsRunning; }
+    
+    
