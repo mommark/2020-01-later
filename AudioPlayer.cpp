@@ -190,4 +190,6 @@ public:
     
     void primeBuffer() {
 
-        OSStatus statu
+        OSStatus status;
+
+      
