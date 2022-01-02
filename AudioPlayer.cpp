@@ -188,4 +188,4 @@ public:
     
     
     
-    voi
+    void primeBuffer() {
