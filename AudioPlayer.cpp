@@ -192,4 +192,4 @@ public:
 
         OSStatus status;
 
-        for (int i = 0; i < kNumber
+        for (int i = 0; i < kNumberBuffers; ++i) {    
