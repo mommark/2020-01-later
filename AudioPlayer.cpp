@@ -193,4 +193,5 @@ public:
         OSStatus status;
 
         for (int i = 0; i < kNumberBuffers; ++i) {                // 2
-            status = AudioQueueAllocateBuffer (                            //
+            status = AudioQueueAllocateBuffer (                            // 3
+                aqData.mQ
