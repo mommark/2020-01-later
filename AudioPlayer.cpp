@@ -195,4 +195,5 @@ public:
         for (int i = 0; i < kNumberBuffers; ++i) {                // 2
             status = AudioQueueAllocateBuffer (                            // 3
                 aqData.mQueue,                                    // 4
-                aqData.bufferByteSize,                         
+                aqData.bufferByteSize,                            // 5
+           
