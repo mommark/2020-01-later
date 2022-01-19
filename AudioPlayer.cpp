@@ -196,4 +196,5 @@ public:
             status = AudioQueueAllocateBuffer (                            // 3
                 aqData.mQueue,                                    // 4
                 aqData.bufferByteSize,                            // 5
-                &aqData.mBuffers[i]                        
+                &aqData.mBuffers[i]                               // 6
+    
