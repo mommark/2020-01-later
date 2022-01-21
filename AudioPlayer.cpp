@@ -198,4 +198,6 @@ public:
                 aqData.bufferByteSize,                            // 5
                 &aqData.mBuffers[i]                               // 6
             );
-            checkStatus(statu
+            checkStatus(status);
+
+            Handle
