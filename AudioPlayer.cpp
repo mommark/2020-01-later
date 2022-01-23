@@ -201,4 +201,4 @@ public:
             checkStatus(status);
 
             HandleOutputBuffer (                                  // 7
-         
+                &aqData,   
