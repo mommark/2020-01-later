@@ -200,4 +200,4 @@ public:
             );
             checkStatus(status);
 
-            HandleOutputBuffer (            
+            HandleOutputBuffer (                               
