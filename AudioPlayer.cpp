@@ -203,4 +203,4 @@ public:
             HandleOutputBuffer (                                  // 7
                 &aqData,                                          // 8
                 aqData.mQueue,                                    // 9
-                aqData.mBuffers[i] 
+                aqData.mBuffers[i]                      
