@@ -209,4 +209,4 @@ public:
 
         #if 1
         status = AudioQueuePrime (
-           aq
+           aqData.mQueue,
