@@ -208,4 +208,4 @@ public:
         }
 
         #if 1
-        statu
+        status = AudioQueuePrime 
