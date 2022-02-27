@@ -210,4 +210,5 @@ public:
         #if 1
         status = AudioQueuePrime (
            aqData.mQueue,
-           kNumb
+           kNumberBuffers,
+           N
