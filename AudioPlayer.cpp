@@ -211,4 +211,6 @@ public:
         status = AudioQueuePrime (
            aqData.mQueue,
            kNumberBuffers,
-           N
+           NULL
+        );
+        c
