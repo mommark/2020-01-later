@@ -213,4 +213,4 @@ public:
            kNumberBuffers,
            NULL
         );
-        c
+        checkStatus(status)
