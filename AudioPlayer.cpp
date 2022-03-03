@@ -213,4 +213,5 @@ public:
            kNumberBuffers,
            NULL
         );
-        checkStatus(status)
+        checkStatus(status);
+        #endi
