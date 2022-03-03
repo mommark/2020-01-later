@@ -214,4 +214,6 @@ public:
            NULL
         );
         checkStatus(status);
-        #endi
+        #endif
+        
+    }
