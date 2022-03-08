@@ -220,4 +220,5 @@ public:
     
     void play() {
         
-        OSStatus
+        OSStatus status;
+       
