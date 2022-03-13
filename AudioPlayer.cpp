@@ -222,4 +222,4 @@ public:
         
         OSStatus status;
         
-        aqData.mIsRunning = tru
+        aqData.mIsRunning = true;                   
