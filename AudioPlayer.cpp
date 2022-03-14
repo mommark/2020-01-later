@@ -223,4 +223,4 @@ public:
         OSStatus status;
         
         aqData.mIsRunning = true;                          // 1
-        aqData.mCurrentPacket = 0;             
+        aqData.mCurrentPacket = 0;                                // 
