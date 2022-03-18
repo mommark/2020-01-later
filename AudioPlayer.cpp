@@ -227,3 +227,4 @@ public:
 
         primeBuffer();
         
+        Float32
