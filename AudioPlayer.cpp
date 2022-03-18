@@ -225,4 +225,5 @@ public:
         aqData.mIsRunning = true;                          // 1
         aqData.mCurrentPacket = 0;                                // 1
 
-        pr
+        primeBuffer();
+        
