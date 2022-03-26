@@ -227,4 +227,5 @@ public:
 
         primeBuffer();
         
-        Float32 gain = 1.0;                       
+        Float32 gain = 1.0;                                       // 1
+   
