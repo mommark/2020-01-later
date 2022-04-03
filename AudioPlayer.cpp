@@ -228,4 +228,5 @@ public:
         primeBuffer();
         
         Float32 gain = 1.0;                                       // 1
-            // Optionally, allow user to override
+            // Optionally, allow user to override gain setting here
+    
