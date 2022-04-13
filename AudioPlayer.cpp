@@ -230,4 +230,5 @@ public:
         Float32 gain = 1.0;                                       // 1
             // Optionally, allow user to override gain setting here
         status = AudioQueueSetParameter (                                  // 2
-            aqData.mQueue,                                       
+            aqData.mQueue,                                        // 3
+            k
