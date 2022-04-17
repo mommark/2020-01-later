@@ -231,4 +231,4 @@ public:
             // Optionally, allow user to override gain setting here
         status = AudioQueueSetParameter (                                  // 2
             aqData.mQueue,                                        // 3
-            k
+            kAudioQueueParam_Volume,  
