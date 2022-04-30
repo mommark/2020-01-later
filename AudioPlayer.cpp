@@ -238,4 +238,4 @@ public:
 
         
 
-        stat
+        status = AudioQueueStart ( 
