@@ -234,4 +234,6 @@ public:
             kAudioQueueParam_Volume,                              // 4
             gain                                                  // 5
         );
-        checkStatus
+        checkStatus(status);
+
+    
