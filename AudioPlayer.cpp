@@ -248,4 +248,5 @@ public:
 
     }
 
-    double duration() c
+    double duration() const {
+        double
