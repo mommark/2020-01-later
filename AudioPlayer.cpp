@@ -247,3 +247,5 @@ public:
 
 
     }
+
+    double duration() c
