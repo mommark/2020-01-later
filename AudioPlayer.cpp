@@ -249,4 +249,5 @@ public:
     }
 
     double duration() const {
-        double
+        double dur = 0;
+        unsigned
