@@ -250,4 +250,5 @@ public:
 
     double duration() const {
         double dur = 0;
-        unsigned int sz = sizeof
+        unsigned int sz = sizeof(dur);
+        OSSta
