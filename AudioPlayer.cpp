@@ -250,4 +250,4 @@ public:
 
     double duration() const {
         double dur = 0;
-        unsigned
+        unsigned int sz = sizeof
