@@ -251,4 +251,4 @@ public:
     double duration() const {
         double dur = 0;
         unsigned int sz = sizeof(dur);
-        OSStatus status = Audi
+        OSStatus status = AudioFileGetProperty
