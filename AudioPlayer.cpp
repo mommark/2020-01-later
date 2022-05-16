@@ -251,4 +251,4 @@ public:
     double duration() const {
         double dur = 0;
         unsigned int sz = sizeof(dur);
-        OSStatus status = AudioFileGetProperty(aqData.mAudioFile, kAudioFilePropertyEstimatedDuration, (UIn
+        OSStatus status = AudioFileGetProperty(aqData.mAudioFile, kAudioFilePropertyEstimatedDuration, (UInt32*)&sz, &dur)
