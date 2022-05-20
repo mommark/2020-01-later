@@ -253,4 +253,6 @@ public:
         unsigned int sz = sizeof(dur);
         OSStatus status = AudioFileGetProperty(aqData.mAudioFile, kAudioFilePropertyEstimatedDuration, (UInt32*)&sz, &dur);
         checkStatus(status);
-        return
+        return dur;
+    }
+   
