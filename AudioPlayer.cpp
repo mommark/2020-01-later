@@ -257,4 +257,5 @@ public:
     }
     
     
-    void seekToPacket(uint64_t packet
+    void seekToPacket(uint64_t packet) {
+        Audi
