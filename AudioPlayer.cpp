@@ -255,4 +255,6 @@ public:
         checkStatus(status);
         return dur;
     }
-   
+    
+    
+    void seekT
