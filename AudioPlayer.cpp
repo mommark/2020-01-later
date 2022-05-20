@@ -257,4 +257,4 @@ public:
     }
     
     
-    void seekT
+    void seekToPacket(uint64_t packet
