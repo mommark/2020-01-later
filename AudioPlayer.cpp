@@ -258,4 +258,4 @@ public:
     
     
     void seekToPacket(uint64_t packet) {
-        Audi
+        AudioQueueStop(aqData.mQu
