@@ -258,4 +258,5 @@ public:
     
     
     void seekToPacket(uint64_t packet) {
-        AudioQueueStop(aqData.mQu
+        AudioQueueStop(aqData.mQueue, true);
+   
