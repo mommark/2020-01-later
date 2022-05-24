@@ -259,4 +259,5 @@ public:
     
     void seekToPacket(uint64_t packet) {
         AudioQueueStop(aqData.mQueue, true);
-        aqData.mCurrentPacket = rand()
+        aqData.mCurrentPacket = rand()%1000;
+        pr
