@@ -261,3 +261,4 @@ public:
         AudioQueueStop(aqData.mQueue, true);
         aqData.mCurrentPacket = rand()%1000;
         primeBuffer();
+        AudioQueueSt
