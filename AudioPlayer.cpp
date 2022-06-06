@@ -265,3 +265,4 @@ public:
         
     }
     
+    void seek(double sec
