@@ -266,4 +266,4 @@ public:
     }
     
     void seek(double sec) {
-        doubl
+        double frame = sec 
