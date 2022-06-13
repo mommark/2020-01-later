@@ -266,4 +266,5 @@ public:
     }
     
     void seek(double sec) {
-        double frame = sec * aqData.mDataFormat
+        double frame = sec * aqData.mDataFormat.mSampleRate;
+    
