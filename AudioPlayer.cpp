@@ -268,4 +268,5 @@ public:
     void seek(double sec) {
         double frame = sec * aqData.mDataFormat.mSampleRate;
         
-        AudioFramePacketTranslation tr
+        AudioFramePacketTranslation trans;
+        trans
