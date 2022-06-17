@@ -269,4 +269,6 @@ public:
         double frame = sec * aqData.mDataFormat.mSampleRate;
         
         AudioFramePacketTranslation trans;
-        trans
+        trans.mFrame = frame;
+
+   
