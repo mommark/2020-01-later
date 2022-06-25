@@ -271,4 +271,4 @@ public:
         AudioFramePacketTranslation trans;
         trans.mFrame = frame;
 
-        unsigned in
+        unsigned int sz = sizeof(trans);
