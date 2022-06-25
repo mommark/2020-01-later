@@ -272,3 +272,4 @@ public:
         trans.mFrame = frame;
 
         unsigned int sz = sizeof(trans);
+        OSStatus s
