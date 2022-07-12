@@ -273,3 +273,5 @@ public:
 
         unsigned int sz = sizeof(trans);
         OSStatus status = AudioFileGetProperty(aqData.mAudioFile, kAudioFilePropertyFrameToPacket, (UInt32*)&sz, &trans);
+
+        seekToPacket(trans.m
