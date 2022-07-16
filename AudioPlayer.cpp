@@ -275,4 +275,5 @@ public:
         OSStatus status = AudioFileGetProperty(aqData.mAudioFile, kAudioFilePropertyFrameToPacket, (UInt32*)&sz, &trans);
 
         seekToPacket(trans.mPacket);
-        trans.mFrameOffsetInPacket = 0; // Don't support 
+        trans.mFrameOffsetInPacket = 0; // Don't support sub packet seeking..
+  
