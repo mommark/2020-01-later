@@ -277,4 +277,4 @@ public:
         seekToPacket(trans.mPacket);
         trans.mFrameOffsetInPacket = 0; // Don't support sub packet seeking..
         
-        status = AudioFileGetProperty(aqData.mAudioFile, 
+        status = AudioFileGetProperty(aqData.mAudioFile, kAudioFilePropertyPa
