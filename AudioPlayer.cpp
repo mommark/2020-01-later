@@ -279,4 +279,7 @@ public:
         
         status = AudioFileGetProperty(aqData.mAudioFile, kAudioFilePropertyPacketToFrame, (UInt32*)&sz, &trans);
 
-        timeBase = trans.mFrame / aqData.mDataForma
+        timeBase = trans.mFrame / aqData.mDataFormat.mSampleRate;
+
+    }
+ 
