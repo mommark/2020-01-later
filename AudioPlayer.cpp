@@ -283,4 +283,5 @@ public:
 
     }
     
-    double progr
+    double progress() const {
+        
