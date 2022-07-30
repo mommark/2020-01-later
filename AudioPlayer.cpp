@@ -282,4 +282,5 @@ public:
         timeBase = trans.mFrame / aqData.mDataFormat.mSampleRate;
 
     }
- 
+    
+    double progr
