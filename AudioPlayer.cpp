@@ -284,4 +284,6 @@ public:
     }
     
     double progress() const {
-        
+        double p = 0;
+
+ 
