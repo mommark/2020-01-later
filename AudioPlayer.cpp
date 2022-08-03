@@ -287,4 +287,4 @@ public:
         double p = 0;
 
         AudioTimeStamp timeStamp;
-     
+        OSStatus sta
