@@ -287,4 +287,5 @@ public:
         double p = 0;
 
         AudioTimeStamp timeStamp;
-        OSStatus status = AudioQu
+        OSStatus status = AudioQueueGetCurrentTime (
+   
