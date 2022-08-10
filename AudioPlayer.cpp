@@ -288,4 +288,5 @@ public:
 
         AudioTimeStamp timeStamp;
         OSStatus status = AudioQueueGetCurrentTime (
-           aqData.
+           aqData.mQueue,
+           NU
