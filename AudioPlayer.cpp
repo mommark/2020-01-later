@@ -296,4 +296,4 @@ public:
         
 //        checkStatus(status);
         
-        p 
+        p = timeStamp.mSampleTime/aq
