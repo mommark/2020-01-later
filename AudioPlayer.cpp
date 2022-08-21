@@ -297,4 +297,5 @@ public:
 //        checkStatus(status);
         
         p = timeStamp.mSampleTime/aqData.mDataFormat.mSampleRate + timeBase;
-               
+                
+        retu
