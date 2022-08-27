@@ -298,4 +298,6 @@ public:
         
         p = timeStamp.mSampleTime/aqData.mDataFormat.mSampleRate + timeBase;
                 
-        retu
+        return p;
+    }
+   
