@@ -302,4 +302,4 @@ public:
     }
     
     
-    stati
+    static void checkStatus
