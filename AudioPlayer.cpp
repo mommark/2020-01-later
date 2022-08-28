@@ -302,4 +302,4 @@ public:
     }
     
     
-    static void checkStatus
+    static void checkStatus_(OSStatus s
