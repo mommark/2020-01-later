@@ -302,4 +302,4 @@ public:
     }
     
     
-    static void checkStatus_(OSStatus s
+    static void checkStatus_(OSStatus status, const char* file
