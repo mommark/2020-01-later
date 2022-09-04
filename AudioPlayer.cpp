@@ -303,3 +303,4 @@ public:
     
     
     static void checkStatus_(OSStatus status, const char* file, int line) {
+        if(status
