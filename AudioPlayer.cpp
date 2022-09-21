@@ -305,4 +305,5 @@ public:
     static void checkStatus_(OSStatus status, const char* file, int line) {
         if(status != noErr) {
             std::cerr << file << ":" << line << ": ";
-            char 
+            char cc[5];
+        
