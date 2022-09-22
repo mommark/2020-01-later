@@ -306,4 +306,4 @@ public:
         if(status != noErr) {
             std::cerr << file << ":" << line << ": ";
             char cc[5];
-        
+            *((unsigned int*)cc
