@@ -307,4 +307,5 @@ public:
             std::cerr << file << ":" << line << ": ";
             char cc[5];
             *((unsigned int*)cc) = status;
-            cc[4] = 0
+            cc[4] = 0;
+            st
