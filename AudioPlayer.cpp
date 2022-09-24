@@ -308,4 +308,4 @@ public:
             char cc[5];
             *((unsigned int*)cc) = status;
             cc[4] = 0;
-            st
+            std::cerr << "Error s
