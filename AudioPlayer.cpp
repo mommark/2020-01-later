@@ -311,4 +311,7 @@ public:
             std::cerr << "Error status " << status << ": " << cc << std::endl;
         } else {
     //        std::cerr << "OK" << std::endl;
-      
+        }
+    }
+    
+    ~Aud
