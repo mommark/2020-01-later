@@ -310,4 +310,5 @@ public:
             cc[4] = 0;
             std::cerr << "Error status " << status << ": " << cc << std::endl;
         } else {
-    //        std::cer
+    //        std::cerr << "OK" << std::endl;
+      
