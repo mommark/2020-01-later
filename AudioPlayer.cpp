@@ -316,4 +316,6 @@ public:
     
     ~AudioPlayerOsx() {
         
-        OSStatus
+        OSStatus status;
+
+      
