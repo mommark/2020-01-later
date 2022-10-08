@@ -318,4 +318,5 @@ public:
         
         OSStatus status;
 
-        status = AudioQueueDispose (                       
+        status = AudioQueueDispose (                            // 1
+         
