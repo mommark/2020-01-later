@@ -319,4 +319,4 @@ public:
         OSStatus status;
 
         status = AudioQueueDispose (                            // 1
-            aqData.mQueu
+            aqData.mQueue,            
