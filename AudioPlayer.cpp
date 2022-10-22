@@ -326,4 +326,4 @@ public:
 
 
         status = AudioFileClose(aqData.mAudioFile);
-  
+        checkSt
