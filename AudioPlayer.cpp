@@ -328,4 +328,4 @@ public:
         status = AudioFileClose(aqData.mAudioFile);
         checkStatus(status);
 
-        free (aqData.mPacketDescs);  
+        free (aqData.mPacketDescs);                    /
