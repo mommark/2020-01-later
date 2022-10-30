@@ -336,4 +336,4 @@ public:
 private:
     
     static void deriveBufferSize (
-        AudioStreamBasicDescription &ASBDesc
+        AudioStreamBasicDescription &ASBDesc,            
