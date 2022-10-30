@@ -335,4 +335,5 @@ public:
     
 private:
     
-    static void de
+    static void deriveBufferSize (
+  
