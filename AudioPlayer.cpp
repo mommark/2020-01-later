@@ -337,4 +337,5 @@ private:
     
     static void deriveBufferSize (
         AudioStreamBasicDescription &ASBDesc,                            // 1
-        UInt32                      maxPacketSize,                       /
+        UInt32                      maxPacketSize,                       // 2
+        F
