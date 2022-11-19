@@ -340,4 +340,4 @@ private:
         UInt32                      maxPacketSize,                       // 2
         Float64                     seconds,                             // 3
         UInt32                      *outBufferSize,                      // 4
-        UInt32                      *ou
+        UInt32                      *outNumPacketsToRead   
