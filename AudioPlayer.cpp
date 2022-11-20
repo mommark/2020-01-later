@@ -342,4 +342,4 @@ private:
         UInt32                      *outBufferSize,                      // 4
         UInt32                      *outNumPacketsToRead                 // 5
     ) {
-        static const 
+        static const int maxBuf
