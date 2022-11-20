@@ -341,4 +341,5 @@ private:
         Float64                     seconds,                             // 3
         UInt32                      *outBufferSize,                      // 4
         UInt32                      *outNumPacketsToRead                 // 5
- 
+    ) {
+        static const 
