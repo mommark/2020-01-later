@@ -343,3 +343,4 @@ private:
         UInt32                      *outNumPacketsToRead                 // 5
     ) {
         static const int maxBufferSize = 0x50000;                        // 6
+        stati
