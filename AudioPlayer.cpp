@@ -346,4 +346,5 @@ private:
         static const int minBufferSize = 0x4000;                         // 7
 
         if (ASBDesc.mFramesPerPacket != 0) {                             // 8
-            Float64 numPackets
+            Float64 numPacketsForTime =
+       
