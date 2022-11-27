@@ -345,4 +345,5 @@ private:
         static const int maxBufferSize = 0x50000;                        // 6
         static const int minBufferSize = 0x4000;                         // 7
 
-        if (ASBDesc.mFramesPerPacket != 0) {                        
+        if (ASBDesc.mFramesPerPacket != 0) {                             // 8
+         
