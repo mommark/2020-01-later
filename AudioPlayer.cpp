@@ -347,4 +347,4 @@ private:
 
         if (ASBDesc.mFramesPerPacket != 0) {                             // 8
             Float64 numPacketsForTime =
-                ASBDesc.mSampleRate / ASB
+                ASBDesc.mSampleRate / ASBDesc.mFramesPerPacket *
