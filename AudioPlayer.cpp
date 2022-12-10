@@ -348,4 +348,4 @@ private:
         if (ASBDesc.mFramesPerPacket != 0) {                             // 8
             Float64 numPacketsForTime =
                 ASBDesc.mSampleRate / ASBDesc.mFramesPerPacket * seconds;
-            *outBufferSiz
+            *outBufferSize = numPacketsF
