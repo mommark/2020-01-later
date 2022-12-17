@@ -349,4 +349,4 @@ private:
             Float64 numPacketsForTime =
                 ASBDesc.mSampleRate / ASBDesc.mFramesPerPacket * seconds;
             *outBufferSize = numPacketsForTime * maxPacketSize;
-        } else {                                     
+        } else {                                                         //
