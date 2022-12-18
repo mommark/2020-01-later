@@ -350,4 +350,4 @@ private:
                 ASBDesc.mSampleRate / ASBDesc.mFramesPerPacket * seconds;
             *outBufferSize = numPacketsForTime * maxPacketSize;
         } else {                                                         // 9
-        
+            *outBufferSize =
