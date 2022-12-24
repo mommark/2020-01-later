@@ -351,3 +351,4 @@ private:
             *outBufferSize = numPacketsForTime * maxPacketSize;
         } else {                                                         // 9
             *outBufferSize =
+                maxBuffe
