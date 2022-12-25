@@ -352,4 +352,4 @@ private:
         } else {                                                         // 9
             *outBufferSize =
                 maxBufferSize > maxPacketSize ?
-                    max
+                    maxBufferSize : maxPa
