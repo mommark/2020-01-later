@@ -356,4 +356,4 @@ private:
         }
 
         if (                                                             // 10
-            *outB
+            *outBufferSize > maxBuf
