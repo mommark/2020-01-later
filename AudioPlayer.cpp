@@ -357,4 +357,6 @@ private:
 
         if (                                                             // 10
             *outBufferSize > maxBufferSize &&
-            *outBufferSize > maxPacke
+            *outBufferSize > maxPacketSize
+        )
+     
