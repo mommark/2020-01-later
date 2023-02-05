@@ -359,4 +359,5 @@ private:
             *outBufferSize > maxBufferSize &&
             *outBufferSize > maxPacketSize
         )
-            *outBufferSize = max
+            *outBufferSize = maxBufferSize;
+        else { 
