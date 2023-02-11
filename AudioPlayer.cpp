@@ -361,4 +361,4 @@ private:
         )
             *outBufferSize = maxBufferSize;
         else {                                                           // 11
-     
+            if (*outBufferSiz
