@@ -363,3 +363,6 @@ private:
         else {                                                           // 11
             if (*outBufferSize < minBufferSize)
                 *outBufferSize = minBufferSize;
+        }
+
+        *ou
