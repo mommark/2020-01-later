@@ -362,4 +362,4 @@ private:
             *outBufferSize = maxBufferSize;
         else {                                                           // 11
             if (*outBufferSize < minBufferSize)
-                *outBufferSize 
+                *outBufferSize = minBufferSize;
