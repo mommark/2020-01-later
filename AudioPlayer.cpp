@@ -365,4 +365,4 @@ private:
                 *outBufferSize = minBufferSize;
         }
 
-        *outNumPacketsToRead 
+        *outNumPacketsToRead = *outBufferSize / max
