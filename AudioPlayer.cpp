@@ -371,3 +371,5 @@ private:
     
     
     
+    
+    double tim
