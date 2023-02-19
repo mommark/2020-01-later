@@ -372,4 +372,5 @@ private:
     
     
     
-    double tim
+    double timeBase;
+    AQPlayer
