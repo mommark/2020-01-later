@@ -373,4 +373,5 @@ private:
     
     
     double timeBase;
-    AQPlayer
+    AQPlayerState aqData;
+   
