@@ -374,4 +374,8 @@ private:
     
     double timeBase;
     AQPlayerState aqData;
-   
+    
+};
+
+
+AudioPlayer*
