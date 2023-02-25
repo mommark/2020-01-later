@@ -378,4 +378,4 @@ private:
 };
 
 
-AudioPlayer*
+AudioPlayer* AudioPlayer::file(
