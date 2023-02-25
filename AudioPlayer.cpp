@@ -378,4 +378,5 @@ private:
 };
 
 
-AudioPlayer* AudioPlayer::file(
+AudioPlayer* AudioPlayer::file(const char *fn) {
+ 
