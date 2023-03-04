@@ -380,4 +380,6 @@ private:
 
 AudioPlayer* AudioPlayer::file(const char *fn) {
     
-    CFURLRef url = CFURLCreateFromFileSystemRepresentation(NULL, (UInt8*)fn, strlen(fn), f
+    CFURLRef url = CFURLCreateFromFileSystemRepresentation(NULL, (UInt8*)fn, strlen(fn), false );
+
+    AudioPlayer
