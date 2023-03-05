@@ -382,4 +382,4 @@ AudioPlayer* AudioPlayer::file(const char *fn) {
     
     CFURLRef url = CFURLCreateFromFileSystemRepresentation(NULL, (UInt8*)fn, strlen(fn), false );
 
-    AudioPlayer
+    AudioPlayerOsx* ap = new AudioP
