@@ -391,4 +391,5 @@ AudioPlayer* AudioPlayer::file(const char *fn) {
 
     CFRelease(url);
     
- 
+    return ap;
+}
