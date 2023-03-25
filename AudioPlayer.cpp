@@ -385,4 +385,5 @@ AudioPlayer* AudioPlayer::file(const char *fn) {
     AudioPlayerOsx* ap = new AudioPlayerOsx;
 
     if(!ap->load(url)) {
-        del
+        delete ap;
+        ap = NUL
