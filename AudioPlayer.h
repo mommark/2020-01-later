@@ -1,0 +1,3 @@
+
+#ifndef EPOXY_AUDIOPLAYER_H
+#define EPOXY_AUDIOPLAYER_H
