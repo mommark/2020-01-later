@@ -386,4 +386,7 @@ AudioPlayer* AudioPlayer::file(const char *fn) {
 
     if(!ap->load(url)) {
         delete ap;
-        ap = NUL
+        ap = NULL;
+    }
+
+    CF
