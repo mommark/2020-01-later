@@ -18,3 +18,11 @@ public:
     virtual void play() = 0;
     
     virtual void seek(double t) = 0 ;
+
+
+protected:
+};
+
+
+
+#endif
