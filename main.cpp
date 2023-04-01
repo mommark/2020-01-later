@@ -52,3 +52,19 @@ int main() {
 
         std::cout << std::flush;
         
+        if(ap->progress() > 5) {
+            ap->seek(rand()/(float(RAND_MAX))*ap->duration());
+        }
+        
+        i = (i+1)%4;
+    } while (ap->isPlaying());
+
+
+
+    delete ap;
+    
+#if 0    
+
+
+//    std::cout << "dataformat " << aqData.mDataFormat << std::endl;
+    std::cout << "bufferbytesize " << aqData.bufferByteSize << std::endl;
