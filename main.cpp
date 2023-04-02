@@ -92,3 +92,16 @@ int main() {
     running =0;
     sz = 4;
         status = AudioFileGetProperty (                             // 9
+            aqData.mAudioFile,                             // 10
+             kAudioQueueProperty_IsRunning ,             // 11
+            &running,                                   // 12
+            &sz                                    // 13
+        );
+        
+    std::cout << "Running: " << running << std::endl;
+
+
+    return 0;
+    do {                                               // 5
+//        std::cout << "Loop." << std::endl;
+        CFRunLoopRunInMode (                           // 6
