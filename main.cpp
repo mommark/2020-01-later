@@ -68,3 +68,27 @@ int main() {
 
 //    std::cout << "dataformat " << aqData.mDataFormat << std::endl;
     std::cout << "bufferbytesize " << aqData.bufferByteSize << std::endl;
+    std::cout << "numpacketstoread " << aqData.mNumPacketsToRead << std::endl;
+    std::cout << "maxpacketsz " << maxPacketSize << std::endl;
+    std::cout << "df bpp " << aqData.mDataFormat.mBytesPerPacket << std::endl;
+    std::cout << "df fpp " << aqData.mDataFormat.mFramesPerPacket << std::endl;
+
+
+
+    unsigned int running =0;
+    sz = 4;
+        status = AudioFileGetProperty (                             // 9
+            aqData.mAudioFile,                             // 10
+             kAudioQueueProperty_IsRunning ,             // 11
+            &running,                                   // 12
+            &sz                                    // 13
+        );
+        
+    std::cout << "Running: " << running << std::endl;
+    
+
+    
+
+    running =0;
+    sz = 4;
+        status = AudioFileGetProperty (                             // 9
