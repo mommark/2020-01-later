@@ -105,3 +105,20 @@ int main() {
     do {                                               // 5
 //        std::cout << "Loop." << std::endl;
         CFRunLoopRunInMode (                           // 6
+            kCFRunLoopDefaultMode,                     // 7
+            0.25,                                      // 8
+            false                                      // 9
+        );
+    } while (aqData.mIsRunning);
+ 
+    CFRunLoopRunInMode (                               // 10
+        kCFRunLoopDefaultMode,
+        1,
+        false
+    );
+
+
+    std::cout << "Done." << std::endl;
+    return 0;
+    #endif
+}
